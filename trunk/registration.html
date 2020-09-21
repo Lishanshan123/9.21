@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公用样式 -->
+    <link rel="stylesheet" href="./css.css/global.css">
+    <!-- 引入当前样式 -->
+    <link rel="stylesheet" href="./css.css/registration.css">
+</head>
+<body>
+      <!-- 头部 -->
+      <header>
+        <div class="top">
+            <div class="lg-container clearfix topone">
+                <h1>
+                    <a href="index.html">
+                        <img src="./imgs/logo.jpg" alt="">
+                    </a>
+                    
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临
+                    <a href="#">乐购</a>
+                    <a href="#">登录</a>
+                    <a href="#">注册</a>
+                </div>
+                
+            </div>
+            <div class="innerbox lg-container">
+                <div class="hy fl">欢迎登陆</div>
+                <div class="possess fr">已有账号，请登录</div>              
+            </div>
+        </div>
+    </header>
+    
+    <!-- 2.登录 -->
+    <div id="register">
+        <form action="#"  id="signupForm" class="txtal">
+            <section>
+                <p>用户名</p>
+                <input type="username" name="username" id="username" class="c666" placeholder="您的账户名和登录名" >
+                <img src="./images/delete.png" alt="" class="delimg">                
+            </section>
+
+            <section>
+                <p>设置密码</p>                
+                <input type="password"  name="pwd" id="pwd" class="c666"  placeholder="建议设置两种字符密码"  >
+                <img src="./images/close.png" alt="" class="climg">
+            </section>
+
+            <section>
+                <p>确认密码</p>
+                <input type="password"  name="repwd" id="repwd"   class="c666" placeholder="再次输入密码">
+                <img src="./images/close.png" alt="" class="climg">
+            </section>
+
+            <section>
+                <p>中国+86</p>
+                <input type="text"  name="telnumber" id="telnumber"  class="c666"  placeholder="建议使用常用手机号" >
+                <img src="./images/delete.png" alt=""  class="delimg">                
+            </section>
+
+            <section>
+                <p>验证码</p>
+                <input type="text"  name="sendbtn" id="sendbtn"  class="c666"  placeholder="请输入验证码" > 
+                <span class="bea8 fs28 cfff">4E7R</span>                            
+            </section>
+            
+            <section>
+                <p class="fs16">手机验证码</p>
+                <input type="text"  name="sendphone" id="sendphone"  class="c666"  placeholder="输入手机验证码" >             
+                <span>获取验证码</span>            
+            </section>
+
+            <section>
+                <p>
+                     <input type="checkbox" name="agree" id="agree">我已阅读并同意 <a href="#" class="cff6">《乐购用户注册协议》</a> 
+                </p>  
+
+            </section>
+            <input type="submit"  name="btn" id="btn" class="bgff cfff fs28" value="立  即  注  册">
+        </form>
+        <div class="bor"></div>
+        
+    </div>
+    <!-- 3.页脚 -->
+    <div id="foot">
+        <div class="synopsis">
+            <p class="tcenter">
+                <a href="#"><span>公司简介  | </span></a>
+                <a href="#"><span>Investor Relations  | </span></a>
+                <a href="#"><span>网站联盟  | </span></a>
+                <a href="#"><span>乐购招商  | </span></a>
+                <a href="#"><span>机构销售  | </span></a>
+                <a href="#"><span>官方Blog  | </span></a>
+                <a href="#"><span>公司简介  | </span></a>
+                <a href="#"><span>热词搜索</span></a>                     
+            </p>
+            <p class="tcenter cop">
+                Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </p>
+        </div>
+    </div>
+    <!-- 引入jquery -->
+    <script src="./lib/jquery.js"></script>
+    <!-- 引入表单验证插件 -->
+    <script src="./plugin/form/jquery.validate.min.js"></script>
+    <!-- 引入当前js -->
+    <script src="./js/registration.js"></script>
+</body>
+</html>

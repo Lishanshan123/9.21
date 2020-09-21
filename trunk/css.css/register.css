@@ -1,0 +1,142 @@
+/* ----------------头部------------------------- */
+header .topone{
+    position: relative;
+}
+
+    
+header .top h1 .hy{
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    width: 120px;
+}
+/* ----------------登录乐购----------------------------- */
+#registerlg{
+    width: 100%;
+    height: 500px;
+    background: url(../imgs/login.jpg) no-repeat center;
+
+}
+#registerlg .bxbox{
+   width: 1200px;
+   height: 500px;
+   position: relative;
+}
+#registerlg .bxbox .login-interface{
+    width: 350px;
+    height: 370px;
+    background: #fff;
+    position: absolute;
+    top: 64px;
+    right: 170px;
+}
+/* -- 登陆页面内容 -- */
+#registerlg .bxbox .login-interface .Loginmethod{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #f6f6f6;
+}
+#registerlg .bxbox .login-interface .Loginmethod li{
+    width: 170px;
+    height: 55px;
+    color: #666666;
+    cursor: pointer;
+}
+#registerlg .bxbox .login-interface .Loginmethod li:first-child{
+    border-right: 1px solid #f6f6f6;
+}
+#registerlg .bxbox .login-interface .Loginmethod li,li{
+    line-height: 55px;
+}
+#registerlg .bxbox .login-interface .Loginmethod li.active{
+    color: #f60;
+}
+
+#registerlg .bxbox .login-interface .Sweepcodelanding{
+    width: 100%;
+    height: 172px;
+    margin-top: 52px;
+
+} 
+#registerlg .bxbox .login-interface .Sweepcodelanding li{
+    width: 175px;
+    height: 172px;
+    text-align: center;
+}
+#registerlg .bxbox .login-interface .Sweepcodelanding li .img1{
+    margin-top: 11px;
+    margin-left: 14px;
+}
+#registerlg .bxbox .login-interface .scan{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+/* #registerlg .bxbox .login-interface .QR{
+    display: none;
+} */
+/* -- 账户登陆 -- */
+#registerlg .bxbox .login-interface .account{
+    width: 100%;
+}
+#registerlg .bxbox .login-interface .account form{
+    width: 290px;
+    margin: 42px auto 0;
+}
+#registerlg .bxbox .login-interface .account #username,#pwd{
+    width: 290px;
+    height: 38px;
+    border: 1px solid #bfbfbf; 
+}
+#registerlg .bxbox .login-interface .account #pwd{
+    margin: 16px 0; 
+}
+#registerlg .bxbox .login-interface .account .forget{
+    margin-left: 158px;
+}
+#registerlg .bxbox .login-interface .account .sub{
+    width: 290px;
+    height: 40px;
+    background: #f60;
+    margin: 26px 0;
+}
+#registerlg .bxbox .login-interface .once{
+    width: 100%;
+    background: #fcfcfc;
+    line-height: 48px;
+    color: #f60;
+    border-top:1px solid #e6e6e6;
+}
+#registerlg .bxbox .login-interface .con{
+    display: none;
+}
+#registerlg .bxbox .login-interface .con.cur{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------页尾---------------------------- */
+#foot{
+    margin-top: 26px;
+}
+

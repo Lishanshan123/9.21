@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乐购商城-购物车页面
+
+    </title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css.css/normalize.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css.css/global.css">
+    
+
+    <!-- 引入当前文件样式 -->
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
+    <link rel="stylesheet" href="./css.css/shopcart.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body style="margin-bottom: 100px;">
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <!-- logo -->
+                <h1>
+                    <a href="index.html">
+                        <img src="./imgs/logo.jpg" alt="">
+                    </a>
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临<a href="#">乐购</a>，请 <a href="#">登陆</a>\<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索区域 -->
+        <div class="searchbox lg-container mt4 clearfix">
+            <div class="cartorder fr">
+                <a href="#" class="fl">购物车 <i>3</i></a>
+                <a href="#" class="fl">我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" class="fl" placeholder="创意文具">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+        <!-- 导航 -->
+        <nav class="lg-container clearfix">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- 购物车区域 -->
+    <section id="shopcartarea" class="lg-container">
+       <table>
+           <!-- 标题行 -->
+            <thead>
+                <tr>
+                    <td width="100">
+                        <input type="checkbox" class="selall">全选
+                    </td>
+                    <td width="400">
+                        商品
+                    </td>
+                    <td width='200'> 
+                        单价
+                    </td>
+                    <td width="200">
+                        数量
+                    </td>
+                    <td width="200">
+                        小计
+                    </td>
+                    <td width="100">
+                        操作
+                    </td>
+                </tr>
+            </thead>
+            <!-- 表格主体 -->
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="singlechk">
+                    </td>
+                    <td>
+                       <img src="./imgs/22876893-1_l.jpg" alt="">从你的世界路过
+                    </td>
+                    <td class="singleprice">
+                        41.00
+                    </td>
+                    <td>
+                        <a class="reducebtn fl">-</a>
+                        <input type="text" value="1" class="count fl">
+                        <a class="addbtn fl">+</a>                        
+                    </td>
+                    <td class="singleTotalPrice">
+                       41.02
+                    </td>
+                    <td>
+                        <a class="delbtn">删除</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" class="singlechk">
+                    </td>
+                    <td>
+                       <img src="./imgs/22876893-1_l.jpg" alt="">从你的世界路过
+                    </td>
+                    <td class="singleprice">
+                        41.00
+                    </td>
+                    <td>
+                        <a class="reducebtn fl">-</a>
+                        <input type="text" value="1" class="count fl">
+                        <a class="addbtn fl">+</a>                        
+                    </td>
+                    <td class="singleTotalPrice">
+                       41.02
+                    </td>
+                    <td>
+                        <a class="delbtn">删除</a>
+                    </td>
+                </tr>
+            </tbody>
+           <!-- 表格尾部 -->
+           <tfoot>
+            <tr>
+                <td>
+                    <input type="checkbox" class="selall">全选
+                </td>
+                <td>
+                    <a class="delallbtn">删除选中商品</a>
+                </td>
+                <td colspan="2">
+                    已选择 <span class="totalnum">0</span> 件商品
+                </td>
+               
+                <td>
+                    总价: <span class="totalprice">0.00</span>
+                </td>
+                <td>
+                   <a href="#">去结算</a>
+                </td>
+            </tr>
+        </tfoot>
+       </table>
+
+
+    </section>
+    <!-- 猜你喜欢区域 -->
+    <section>
+        <section id="Popularitem" class="lg-container">
+            <div class="Title">
+                <div class="titlebox">
+                        <h2 class="cwhith fs24">人气单品</h2>
+                </div>
+            </div>
+            <!-- 内容 -->
+            <ul class="popcon clearfix">
+                <li><a href="#">
+                    <img src="./imgs/22935553-1_l.jpg" alt="">
+                    <img src="./imgs/index05_18.jpg" alt="">
+                    <p>白夜行  东野上吾</p>
+                    <p>推荐：⭐⭐⭐⭐⭐</p>
+                    <p>￥:38 <del class="cc0">￥:58</del></p>
+                </a></li>
+                <li><a href="#">
+                    <img src="./imgs/22935553-1_l.jpg" alt=""> 
+                    <img src="./imgs/index05_18.jpg" alt="">                
+                    <p>白夜行  东野上吾</p>
+                    <p>推荐：⭐⭐⭐⭐⭐</p>
+                    <p>￥:38 </p>               
+                </a></li>
+                <li><a href="#">
+                    <img src="./imgs/22935553-1_l.jpg" alt="">
+                    <img src="./imgs/index05_18.jpg" alt="">                
+                    <p>白夜行  东野上吾</p>
+                    <p>推荐：⭐⭐⭐⭐⭐</p>
+                    <p>￥:38 </p>
+                </a></li>
+                <li><a href="#">
+                    <img src="./imgs/22935553-1_l.jpg" alt="">
+                    <img src="./imgs/index05_18.jpg" alt="">                
+                    <p>白夜行  东野上吾</p>
+                    <p>推荐：⭐⭐⭐⭐⭐</p>
+                    <p>￥:38</p>
+                </a></li>
+                <li><a href="#">
+                    <img src="./imgs/22935553-1_l.jpg" alt="">
+                    <img src="./imgs/index05_18.jpg" alt="">                
+                    <p>白夜行  东野上吾</p>
+                    <p>推荐：⭐⭐⭐⭐⭐</p>
+                    <p>￥:38 </p>
+                </a></li>
+            </ul>
+       
+            
+        </section>
+    </section>
+
+  <!-- 页尾 -->
+  <section id="Footer">
+    <div class="lg-container">
+      <img src="./imgs/moshou_03.jpg" alt="">
+    </div>
+    <footer id="foot" > 
+        <a > <img src="./imgs/gototop_05.jpg" alt="" class="foottop"></a>
+        <div class="credit">
+            <div class="creditbox" >
+                <ul>
+                    <li><a href="#"><img src="./imgs/222_11.png" alt=""></a></li>
+                    <li><a href="#"><img src="./imgs/222_13(1).png" alt=""></a></li>
+                    <li><a href="#"><img src="./imgs/222_15.png" alt=""></a></li>
+                    <li><a href="#"><img src="./imgs/222_17.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footlist">
+            <ul>
+                <li><a href="#">购物指南</a></li>
+                <li><a href="#">购物流程</a></li>
+                <li><a href="#">发票制度</a></li>
+                <li><a href="#">账户管理</a></li>
+                <li><a href="#">会员优惠</a></li>
+                <li><a href="#">支付方式</a></li>
+                <li><a href="#">货到付款</a></li>
+                <li><a href="#">网上支付</a></li>
+                <li><a href="#">礼品卡支付</a></li>
+                <li><a href="#">银行转帐</a></li>
+                <li><a href="#">订单服务</a></li>
+                <li><a href="#">订单配送查询</a></li>
+                <li><a href="#">订单状态说明</a></li>
+                <li><a href="#">自助取消订单</a></li>
+                <li><a href="#">自助修改订单</a></li>
+                <li><a href="#">退换货</a></li>
+                <li><a href="#">退换货政策</a></li>
+                <li><a href="#">自助申请退换货</a></li>
+                <li><a href="#">退换货进度查询</a></li>
+                <li><a href="#">退款方式和时间</a></li>
+                <li><a href="#">商家服务</a></li>
+                <li><a href="#">商家中心</a></li>
+                <li><a href="#">运营服务</a></li>
+                <li><a href="#">加入尾品汇</a></li>
+                <li><a href="#">加入尾品汇</a></li>
+            </ul>
+        </div>   
+     
+        <div class="synopsis">
+            <p class="tcenter">
+                <a href="#"><span>公司简介  | </span></a>
+                <a href="#"><span>Investor Relations  | </span></a>
+                <a href="#"><span>网站联盟  | </span></a>
+                <a href="#"><span>乐购招商  | </span></a>
+                <a href="#"><span>机构销售  | </span></a>
+                <a href="#"><span>官方Blog  | </span></a>
+                <a href="#"><span>公司简介  | </span></a>
+                <a href="#"><span>热词搜索</span></a>                     
+            </p>
+            <p class="tcenter cop">
+                Copyright (C) 乐购网 2004-2016, All Rights Reserved
+            </p>
+            <div class="footlogo">
+                <img src="./imgs/logo_00.png" alt="">
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./js/shopcart.js"></script>
+
+
+
+
+</body>
+
+</html>

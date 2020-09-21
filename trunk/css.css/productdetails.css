@@ -1,0 +1,385 @@
+/* --------------产品详情---------------------- */
+/*  图书 */
+#ProductDetails{
+    width: 100%;
+    /* height: 300px; */
+    background: rgb(242,242,242);
+    margin-bottom: 26px;
+}
+#ProductDetails ul{
+   width: 1200px;
+    margin-top: 6px;
+    /* background: aqua */
+}
+#ProductDetails ul li{
+    float: left;
+    line-height: 50px; 
+}
+#ProductDetails ul li a{
+    color: #333333;
+}
+#ProductDetails ul li:first-child{
+    font-size: 26px;
+    margin-top: -4px;
+}
+#ProductDetails ul li:not(:first-child) a{
+    color: grey
+}
+/* 详情 */
+#ProductDetails .details{
+    background-color: #fff;
+}
+/* 左边 */
+#ProductDetails .detailsleft{
+    width: 370px;
+    height: 520px;
+}
+/* 右边 */
+#ProductDetails .detailsright{
+    width: 760px;
+    height: 520px;
+}
+#ProductDetails .detailsright .booktitle h2{
+    padding-top: 24px;
+}
+#ProductDetails .detailsright .booktitle .author{
+    line-height: 56px;
+}
+#ProductDetails .detailsright .price{
+    width: 740px;
+    background-color: #f5f5f5;
+    margin-top: 14px;
+    position: relative;
+    
+}
+#ProductDetails .detailsright .price .evaluate{
+    width: 80px;
+    height: 58px;
+    line-height: 0px;
+    text-align: center;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    border-left: 2px solid gray;
+}
+#ProductDetails .detailsright .price p:first-child{
+    line-height: 50px
+}
+#ProductDetails .detailsright .price .coupon{
+    margin-top: 28px;
+    padding-bottom: 14px;
+}
+#ProductDetails .detailsright .price .coupon a{
+    margin-left: 14px;
+}
+#ProductDetails .detailsright .kind{
+    width: 350px;
+    height: 60px;
+    margin-top: 16px;
+}
+#ProductDetails .detailsright .kind .kinds{
+    width: 350px;
+    height: 44px;
+}
+#ProductDetails .detailsright .kind span{
+    line-height: 36px;
+}
+#ProductDetails .detailsright .kind div{
+    width: 84px;
+    height: 18px;
+    color: #4d4d4d;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-right: 26px;
+    padding: 8px;
+}
+#ProductDetails .detailsright .kind .bgg{
+    background: url(../imgs/111_03.jpg) no-repeat; 
+}
+#ProductDetails .detailsright .kind div a{
+    padding: 10px;
+}
+#ProductDetails .detailsright .quantity{
+    width: 280px;
+    height: 68px;
+}
+#ProductDetails .detailsright .quantity div{
+    margin-top: 5px;
+}
+#ProductDetails .detailsright .quantity .quantity1{
+    width: 42px;
+    height: 42px;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 42px;
+    border-bottom: 1px solid #f2f2f2
+
+}
+#ProductDetails .detailsright .quantity .quantity2{
+    width: 42px;
+    height: 42px;
+    margin-top: 14px;
+    
+}
+#ProductDetails .detailsright .quantity .quantity2 button{
+    width: 21px;
+    height: 21px;
+    border: solid 1px #d9d9d9;
+}
+#ProductDetails .detailsright .quantity .quantity3{
+    width: 190px;
+    height: 60px;
+    background: #f60;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+/* ---------------3.人气单品-------------------------- */
+#Popularitem .Title{
+    width: 1200px;
+	height: 47px;
+    border-bottom: #ff6600 4px solid;    
+}
+#Popularitem .titlebox{
+    width: 124px;
+	line-height: 47px;
+    background-color: #ff6600; 
+}
+#Popularitem .popcon{
+    width: 1200px;
+    margin-bottom: 44px;
+}
+#Popularitem .popcon li{
+    width: 210px;
+    height: 258px;
+    float: left;
+    margin-left: 23px;
+    margin-top: 5px;
+}
+#Popularitem .popcon li:first-child{
+    background: #f2f2f2;
+}
+#Popularitem .popcon li a img:first-child{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+#Popularitem .popcon li a img:last-child{
+    width: 73px;
+	height: 25px;
+}
+#Popularitem .popcon li a p:nth-child(2){
+    line-height: 24px;
+}
+#Popularitem .popcon li a p:last-child{
+    font-size: 24px
+}
+/* -----------------4.看了又看------------------- */
+/* 左边 */
+#Watchandsee .seeleft{
+    width: 318px;
+	height: 2212px;
+    border: solid 1px #f2f2f2;;
+    margin-left: 10px;
+}
+#Watchandsee .seeleft .Watchsee{
+    width: 318px;
+    height: 40px;
+    background: #f2f2f2;
+    line-height: 40px;
+    text-indent: 10px;
+}
+/* 左边内容 */
+#Watchandsee{
+    height: 2212px;
+    margin-bottom: 1132px;
+}
+#Watchandsee .seeleft .see-container{
+    width: 180px;
+    margin: 28px  auto 0;
+}
+#Watchandsee .seeleft ul hr{
+    margin: 30px 0;
+}
+
+
+
+#Watchandsee .seeright{
+    width: 856px;
+	height: 2212px;
+        
+}
+#Watchandsee .seeright .introduce{
+    width: 856px;
+    height: 48px;
+    border-bottom: 4px solid #f60;
+}
+#Watchandsee .seeright .introduce li{
+    width: 138px;
+    height: 48px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 48px;
+}
+#Watchandsee .seeright .introduce .lis2{
+    background: #f60;
+    color: #fff;
+}
+
+#Watchandsee .seeright .con{
+    display: none;
+}
+#Watchandsee .seeright .con.cur{
+    display: block;
+}
+/* 好评度 */
+
+#Watchandsee .seeright .good p:first-child{
+    text-indent: 32px;
+    
+}
+#Watchandsee .seeright .good p:last-child{
+    text-indent: 64px;
+}
+
+#Watchandsee .seeright .good{
+    width: 816px;
+    height: 100px;
+    margin: 30px auto 0;
+}
+
+#Watchandsee .seeright .good .reputation{
+    width: 134px;
+    height: 98px;
+}
+#Watchandsee .seeright .good .goodreputation{
+    width: 244px;
+    height: 80px;
+    margin-left: 34px;
+    margin-top: 10px
+}
+#Watchandsee .seeright .good .goodreputation li{
+    float: left;
+    margin-top: 4px;
+}
+#Watchandsee .seeright .good .goodreputation li:nth-child(2n+1){
+    width: 92px;
+    height: 22px;
+    text-align: center;
+}
+#Watchandsee .seeright .good .goodreputation li:nth-child(2n){
+    width: 146px;
+    height: 22px;
+}
+#Watchandsee .seeright .good .goodreputation li:nth-child(2){
+    background-color: #f8380c;
+}
+#Watchandsee .seeright .good .goodreputation li:nth-child(4){
+    background-color: #e6e6e6;
+    width: 140px;
+    border-left: 6px solid #f8380c;
+}
+#Watchandsee .seeright .good .goodreputation li:nth-child(6){
+    background-color: #e6e6e6;
+}
+
+#Watchandsee .seeright .good .staff{
+    width: 366px;
+    height: 98px;
+}
+#Watchandsee .seeright .good .staff li{
+    width: 135px;
+    height: 14px;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+#Watchandsee .seeright .good .staff li span{
+    margin-left: 45px;
+}
+/* 评价导航 */
+#Watchandsee .seeright .evaluatenav{
+    width: 856px;
+    height: 30px;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+#Watchandsee .seeright .evaluatenav ul li{
+    width: 120px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+#Watchandsee .seeright .evaluatenav ul li a{
+    line-height: 30px;
+    color: #666666;
+    font-size: 14px;
+}
+
+#Watchandsee .seeright .evaluatecon ul{
+    width: 856px;
+    height: 126px;
+    margin-top:20px;
+    border-bottom: solid 1px #f5f5f5;
+}
+#Watchandsee .seeright .evaluatecon ul li{
+    margin-left: 20px;
+}
+#Watchandsee .seeright .evaluatecon ul li:nth-child(1){
+    width: 146px;
+    height: 126px;
+}
+#Watchandsee .seeright .evaluatecon ul li:nth-child(2){
+    width: 478px;
+    height: 126px;
+    text-align: justify;
+}
+#Watchandsee .seeright .evaluatecon ul li .pp{
+    margin: 24px 0;
+}
+#Watchandsee .seeright .evaluatecon ul li:nth-child(3){
+    width: 138px;
+    height: 126px;
+}
+#Watchandsee .seeright .evaluatecon ul li .pj{
+    line-height: 20px;
+}
+/* 换页按钮 */
+#Watchandsee .seeright .skip{
+    width: 856px;
+    height: 66px;
+    margin-top: 1764px;
+}
+#Watchandsee .seeright .skip ul{
+    margin-top: 17px;
+}
+#Watchandsee .seeright .skip ul li{
+    float: left;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #fafafa;
+    border-left: solid 1px #e6e6e6;
+}
+#Watchandsee .seeright .skip ul li a{
+    color: #999999;
+}
+
+#Watchandsee .seeright .skip ul li:first-child{
+    border-left:none;
+}
+#Watchandsee .seeright .skip ul li:last-child{
+    width: 64px;
+    height: 32px;
+    border-right: solid 1px #e6e6e6;
+    
+}
+/* 页尾 */
+#Footer img{
+   margin: 0 auto;
+}
+

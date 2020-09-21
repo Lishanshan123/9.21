@@ -1,0 +1,213 @@
+/* ------------------bannner区域--------------------------  */
+#banner div:last-child a img{
+    width: 1200px;
+    height: 90px;
+    margin: 28px 0;
+    
+}
+
+/* -----------------乐购 图书折扣区 ----------------------------- */
+#spread .titlebox {
+    margin-top: 216px;
+}
+
+#spread .spread-con ul li div a img:nth-child(2){
+    width: 56px;
+	height: 20px;
+}
+#spread .spread-con ul li {
+    width: 214px;
+    height: 282px;
+}
+
+/* --------------新书上架------------------------------ */
+#ebook{
+    width: 1200px;
+    height: 542px;
+    margin-top: -40px;
+}
+#ebook .titlebox{
+    width: 880px;
+    line-height: 30px;
+    color: #f60;
+    font-size: 24px;
+    padding-left: 20px;
+    border-bottom: 4px solid #f60;
+}
+
+/* 左边 */
+#ebook .ebookLeft{
+    width: 880px;
+    /* height: 520px; */
+    margin-left: 11px;
+
+}
+#ebook .ebookLeft ul li{
+    width: 170px;
+    height: 220px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 26px;
+}
+#ebook .ebookLeft ul li a img{
+    margin-left: 10px;
+}
+#ebook .ebookLeft ul li a p{
+    color: #333333;
+    font-size: 14px;
+}
+#ebook .ebookLeft ul li a p:last-child{
+    color: red;
+}
+#ebook .ebookLeft ul li a del{
+    color: #b3b3b3;
+}
+
+/* 右边 */
+#ebook .ebook-right{
+    width: 280px;
+    height: 476px;
+    margin-top: -4px;
+    border: 1px solid #ccc;
+}
+#ebook .ebook-right h4{
+    line-height: 48px;
+    color: #808080;
+}
+#ebook .ebook-right ul li{
+    position: relative;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+#ebook .ebook-right ul li:last-child{
+    border: 0;
+}
+#ebook .ebook-right ul li div{
+    display: none;
+}
+#ebook .ebook-right ul li .title.curtitle{
+    display: none;
+}
+#ebook .ebook-right ul li div.cur{
+    display: block;
+}
+#ebook .ebook-right ul li span{
+    position: absolute;
+    left: -14px;
+    top: 0px;
+}
+#ebook .ebook-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+#ebook .ebook-right ul li div p{
+    line-height: 20px;
+    color: #404040;
+    padding: 5px;
+}
+
+
+
+/* ------------------独家提供----------------------------- */
+#exclusive{
+    width: 1200px;
+    height: 518px;
+    border-bottom: 1px solid #ccc;
+}
+.extitle{
+    height: 44px;
+    font-size: 22px;
+    position: relative;
+    border-bottom: 4px solid #f60;
+}
+.extitle p{
+    line-height: 60px;
+}
+.extitle b{
+    color: #fff;
+    font-size: 28px;
+    background: #f60;
+}
+#exclusive .extitle ul li{
+    width: 100px;
+    height: 36px;
+    float: left;
+}
+#exclusive .extitle ul{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+}
+#exclusive .extitle ul li.active{
+    background: #f60;
+}
+#exclusive .extitle ul li a{
+    font-size: 18px;
+    color: #333333;
+}
+#exclusive .extitle ul li a p{
+    line-height: 44px
+}
+
+/* 轮播交互 */
+#exclusive .slidebox{
+    display: none;
+}
+#exclusive .slidebox.cur{
+    display: block;
+}
+
+
+
+
+/* -------------------猜你喜欢------------------------- */
+#like{
+    margin-top: 50px;
+    
+}
+#like .likecon{
+    width: 1200px;
+    height: 480px;
+    border-bottom: 1px solid #ccc;
+}
+#like .likecon ul li{
+    width: 170px;
+    height: 220px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 14px;
+}
+#like .likecon ul li a{
+    color: #333333;
+    font-size: 18px;
+    
+}
+#like .likecon ul li a img{
+    margin-left: 10px;
+}
+#like .likecon ul li a p:nth-child(4){
+    color: red;
+}
+#like .likecon ul li a p:nth-child(3),del{
+    color: #b3b3b3;
+}
+#like .choiceness{
+    width: 1200px;
+    height: 116px;
+    margin-top: 38px;
+}
+#like .choiceness ul li img{
+    width: 180px;
+
+}
+#like .choiceness ul li{
+    float: left;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+#like .likecontainer{
+    margin-top: 22px;
+}
+

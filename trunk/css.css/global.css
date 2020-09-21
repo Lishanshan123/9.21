@@ -1,0 +1,444 @@
+@charset 'utf-8';
+body{
+    font-family: SimHei;
+    font-size: 14px;
+    color: #333333;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* 版心 */
+.lg-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.menu-container{
+    width: 476px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom:1 ;
+}
+a{
+    text-decoration: none;
+}
+.tcenter{
+    text-align: center;
+}
+.mt4{
+    margin-top: 4px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.pl5{
+    padding-left: 5px;
+}
+.pdl22{
+    padding-left: 22px;
+}
+.bd{
+    border: 1px solid red;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs16{
+    font-size: 16px;
+}
+.fs18{
+    font-size: 18px;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs22{
+    font-size: 24px;
+}
+.fs24{
+    font-size: 24px;
+}
+.fs26{
+    font-size: 26px;
+}
+.fs28{
+    font-size: 28px;
+}
+.fs64{
+    font-size: 64px;
+}
+.cwhith{
+    color: #ffffff
+}
+.cred{
+    color: red;
+}
+.cwhith{
+    color: #ffffff
+}
+.c333{
+    color: #333333
+}
+.c666{
+    color: #666666
+}
+.c8181{
+    color: #818181;
+}
+.c999{
+    color: #999999;
+}
+.cc0{	
+    color: #c0c0c0;
+}
+.cf4b{
+    color: #f4b212;
+}
+.cf60{
+    color: #ff6600;
+}
+.c80{
+    color: #808080;
+}
+.bcg{
+    background: #f60;    
+}
+
+
+/**头部*/
+header{
+    height: 112px;
+    /* background-color: pink; */
+}
+
+header .top{
+    height: 28px;
+    line-height: 28px;
+	background-color: #101010;
+}
+header .top div:first-child{
+    position: relative;
+}
+header .top h1{
+    position: absolute;
+    margin-top: 0px;
+}
+header .top .txturl{
+    color: #e6e6e6;
+    font-size: 18px;
+    text-indent: 210px;
+}
+
+header .top .logintxtbox{
+    color: #bfbfbf;
+}
+header .top .logintxtbox a{
+    color: #f60;
+}
+/*-------------搜索框---------  */
+header .searchbox form{
+    width: 440px;
+	height: 36px;
+	background-color: #ffffff;
+    border: solid 2px #ff6600;
+    box-sizing: border-box;
+}
+header .searchbox form input:first-child{
+    width: 388px;
+    height: 32px;
+    text-indent:8px;
+}
+header .searchbox form input:last-child{
+    width: 48px;
+    height: 32px;
+    background: url(../imgs/bgicon.png) no-repeat;
+    cursor: pointer;
+}
+/* 搜索框定位 */
+header .searchbox:first-child{
+    display: block;
+}
+header .SearchBox{
+    display: none;
+    width: 100%;
+    height: 40px;
+    background-color: #f60;
+    position: fixed;
+    top: 2%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+
+
+.titlebox{
+        width: 1200px;
+        line-height: 30px;
+        color: #f60;
+        font-size: 24px;
+        padding-left: 20px;
+        border-bottom: 4px solid #f60;
+    }
+
+
+
+
+
+
+
+
+/*------------ 购物车和订单---------  */
+header .searchbox .cartorder{
+  width: 200px;
+  height: 36px;
+  margin-left: 36px;
+}
+header .searchbox .cartorder a{
+ 
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+header .searchbox .cartorder a:first-child{
+    text-indent: 36px;
+    text-align: center;
+    color: #ffffff;    
+    background: url(../imgs/bgicon.png) no-repeat 0px -41px #ff6600;
+
+}
+header .searchbox .cartorder a:first-child i{
+    font-style: normal;
+    font-size: 16px;
+}
+header .searchbox .cartorder a:last-child{
+    color: #808080;
+    font-size: 16px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    width: 100px;
+    box-sizing: border-box;
+}
+/* ------------导航---------------------------- */
+header nav ul{
+    margin-right: 109px;
+    margin-top: 20px;
+}
+header nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+header nav ul li a{
+    line-height: 24px;
+    color: #323232;
+    font-size: 16px;
+}
+
+
+
+
+
+
+#banner{
+    height: 420px;
+    background-color: yellowgreen;
+}
+#banner .menulist{
+    width: 200px;
+    height: 420px;
+    background-color: #ccc;
+}
+#banner .menulist ul{
+    position: relative;
+}
+#banner .menulist ul p{
+    padding-left: 20px;
+    border: 1px solid transparent;
+}
+#banner .menulist ul p:hover{
+    background-color: #ffffff;
+    border-color: #f60;
+    width: 180px;
+}
+#banner .menulist li{
+    line-height: 28px;
+}
+#banner .menulist li:hover .menu{
+    display: block;
+}
+#banner .menulist li .menu{
+    width: 578px;
+    height: 420px;
+    background-color:#ffffff;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    z-index: 101;
+}
+#banner .menulist li .menu li{
+    float: left;
+    margin-right: 8px;
+    
+}
+
+#banner .menulist li a{
+    color: #1a1a1a;
+}
+#banner .menulist li .menu h2{
+    color: #f60;
+}
+#banner .menulist li .menu div{
+    margin-top: 12px;
+}
+
+#banner .slidebox{
+    width: 1000px;
+    background-color:aqua;
+}
+
+/* ---------------------商品推广--------------------------- */
+#spread .titlebox{
+    margin-top: 54px
+}
+#spread .spread-con{
+    width: 1180px;
+    height: 616px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+#spread .spread-con ul li{
+    width: 214px;
+    height: 300px;
+    /* border: #333333 solid 1px; */
+    float: left;
+    margin-left: 16px;
+    margin-top: 6px;
+}
+#spread .spread-con ul li div{
+        width: 150px;
+        height: 242px;
+        margin: 0 auto;
+}
+#spread .spread-con ul li div .price{
+        font-size: 24px;
+        color: #f4290d;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------页尾-------------------------------- */
+#foot{
+    height: 470px;
+    position: relative;
+    
+}
+#foot .credit{
+    width: 100%;
+    height: 100px;
+    background: #f2f2f2;
+    border-top: 4px solid #f60;
+}
+#foot .credit .creditbox{
+    width: 800px;
+    height: 96px;
+    margin: 0 auto;
+}
+#foot .credit .creditbox ul li{
+    /* width: 127px; */
+    /* height: 50px; */
+    float: left;
+    margin: 25px 0px;
+    margin-left: 60px
+}
+#foot .footlist{
+    width: 800px;
+    height: 170px;
+    margin: 30px auto;  
+}
+#foot .footlist ul li{
+    width: 100px;
+    line-height: 32px;
+    float: left;
+    margin-left: 60px
+}
+#foot .footlist ul li a{
+    font-size: 14px;
+    color: #4d4d4d
+}
+#foot .synopsis{
+    width: 850px;
+    height: 20px;
+    margin: 0 auto;
+}
+#foot .synopsis p a span{
+    color: #333333
+}
+#foot .cop{
+    line-height: 54px
+}
+
+#foot .footlogo{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+#foot .foottop{
+   width: 30px;
+   height: 50px;
+   position: fixed;
+   top: 70%;
+   right: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

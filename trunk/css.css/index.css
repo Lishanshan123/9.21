@@ -1,0 +1,384 @@
+@charset 'utf-8';
+/* ---------今日推荐----------- */
+#recommend{
+    height: 532px;
+    margin-top: 14px
+}
+#recommend .titlebox{
+    line-height: 24px;
+    color: #f60;
+    font-size: 24px;
+    text-indent: 20px;
+    border-bottom: 4px solid #f60;
+}
+#recommend .conbox{
+    width: 1188px;
+    height: 500px;
+    margin: 0 auto;
+    border-left: 1px solid #f60;
+}
+
+#recommend .conbox li{
+    width: 196px;
+    height: 250px;
+    border: 1px solid #f60;
+    float: left;
+    border-left: 0;
+    border-top: 0;
+}
+#recommend .conbox li img:first-of-type{
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+}
+#recommend .conbox li img:nth-child(2){
+    width: 73px;
+    height: 25px;
+}
+#recommend .conbox li p:nth-child(3){
+    text-indent: 6px;
+    
+}
+#recommend .conbox li p:nth-child(4){
+    color: #f4290d;
+    text-indent: 6px;
+}
+#recommend .conbox li span{
+    font-size: 24px;
+    color: #f4290d;
+    text-indent: 10px
+}
+
+/* -------------------电子书 图书--------------------- */
+#ebook{
+    margin-top: 14px;
+}
+.ebook-left .titlebox{
+        width: 880px;
+        line-height: 30px;
+        color: #f60;
+        font-size: 24px;
+        padding-left: 20px;
+        border-bottom: 4px solid #f60;
+    }
+#ebook .ebook-left{
+    width: 900px;
+}
+#ebook .ebook-left .titlebox li{
+    width: 100px;
+    line-height: 34px;
+    cursor: pointer;
+
+}
+#ebook .ebook-left .titlebox li.active{
+    background-color: #f60;
+    color: #fff
+}
+#ebook .ebook-left .con{
+    display: none;
+}
+#ebook .ebook-left .con.cur{
+    display: block;
+}
+#ebook .ebook-left .con .categorylinks{
+    width: 240px;
+    height: 440px;
+    background-color: #f9f9f9;
+}
+
+#ebook .ebook-left .con .categorylinks div a{
+    float: left;
+    width: 100px;
+    height: 26px;
+    color: #333333;
+}
+#ebook .ebook-left .con .bookslist{
+    width: 660px;
+    height: 440px;
+}
+#ebook .ebook-left .con .bookslist>ul>li:first-child{
+    width: 330px;
+}
+#ebook .ebook-left .con .bookslist>ul>li:nth-child(3),
+#ebook .ebook-left .con .bookslist>ul>li:nth-child(7){
+    border-right: 1px solid #ccc;
+}
+#ebook .ebook-left .con .bookslist>ul>li{
+    float: left;
+    width: 165px;
+    height: 220px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#ebook .ebook-left .con .bookslist>ul>li:nth-child(4n){
+    border-right: 1px solid #ccc;  
+}
+#ebook .ebook-left .con .bookslist>ul>li h3{
+    line-height: 34px;
+}
+#ebook .ebook-left .con .bookslist>ul>li p{
+    line-height: 22px;
+}
+#ebook .ebook-right{
+    width: 280px;
+    margin-top: 34px;
+    border: 1px solid #ccc;
+}
+#ebook .ebook-right h4{
+    line-height: 48px;
+    color: #808080;
+}
+#ebook .ebook-right ul li{
+    position: relative;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+#ebook .ebook-right ul li:last-child{
+    border: 0;
+}
+#ebook .ebook-right ul li div{
+    display: none;
+}
+#ebook .ebook-right ul li .title.curtitle{
+    display: none;
+}
+#ebook .ebook-right ul li div.cur{
+    display: block;
+}
+#ebook .ebook-right ul li span{
+    position: absolute;
+    left: -14px;
+    top: 0px;
+}
+#ebook .ebook-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+#ebook .ebook-right ul li div p{
+    line-height: 20px;
+    color: #404040;
+    padding: 5px;
+}
+/* -----------------服装--------------------- */
+#cloth{
+    /* height: 532px; */
+    margin-top: 14px
+}
+ .titlebox{
+    line-height: 24px;
+    color: #f60;
+    font-size: 24px;
+    border-bottom: 4px solid #f60;
+}
+ .titlebox li{
+    width: 100px;
+    line-height: 28px;
+    cursor: pointer;
+}
+ .titlebox li.active{
+    background-color: #f60;
+    color: #fff
+}
+/* 内容 */
+#cloth .ClothCon{
+    display: none;
+}
+#cloth .one{
+    display: block;
+}
+
+
+
+
+ .cloth-con .clothcon-left{
+    width: 238px;
+    height: 520px;
+    background: #f9f9f9;
+}
+ .cloth-con .clothcon-left div{
+    margin-top: 12px
+}
+ .cloth-con .clothcon-left div a{
+    width: 79px;
+    height: 37px;
+    float: left;
+    color: #333333;
+}
+
+
+
+ .cloth-con .clothcon-top{
+    width: 962px;
+    height: 342px;
+}
+ .cloth-con .clothcon-top>ul>li{
+    width: 194px;
+    height: 342px;
+    float: left;
+}
+ .cloth-con .clothcon-top li .conimg{
+    border: 1px solid #ccc;
+    width: 194px;
+    height: 342px;
+    
+}
+ .cloth-con .clothcon-top>ul>li:first-child{
+    width: 380px;
+}
+
+ .cloth-con .clothcon-bottom{
+    width: 962px;
+    height: 178px;
+    background: pink;
+    
+}
+ .cloth-con .clothcon-bottom>ul>li{
+    width: 194px;
+    height: 178px;
+    float: left;
+}
+ .cloth-con .clothcon-bottom>ul>li:first-child{
+    width: 380px;
+}
+ .cloth-con .clothcon-bottom li .conimg2{
+    width: 380px;
+    height: 178px;
+    
+}
+ .cloth-con .clothcon-bottom li .conimg3{
+    width: 194px;
+    height: 178px;
+    border: 1px solid #ccc;
+}
+ .brandlogo li{
+    width: 132px;
+    height: 50px;
+    float: left;
+
+}
+/* ---------------------户外运动---------------------------- */
+#sport .lg-container{
+    margin-top: 90px
+}
+#sport .cloth-con .clothcon-left .sportimg{
+    width: 237px;
+    height: 345px;
+}
+#sport .SportCon{
+    display: none;
+}
+#sport .one{
+    display: block
+}
+
+
+
+
+/* ----------------童装 童鞋 婴儿装-------------------------------------- */
+#childcloth .lg-container{
+    margin-top: 90px
+}
+#childcloth .cloth-con .clothcon-left .sportimg{
+    width: 237px;
+    height: 345px;
+}
+#childcloth .ChildclothCon{
+    display: none;
+}
+#childcloth .one{
+    display: block;
+}
+
+
+
+
+/* -----------------家具日用------------------------- */
+#house{
+    padding-top: 74px
+}
+#house .house-con .housecon-left{
+    width: 480px;
+    height: 502px;
+    /* background-color: #838383; */
+    border: solid 2px #cccccc;
+}
+#house .house-con .housecon-right{
+    width: 712px;
+    height: 502px;
+    /* background-color: aqua; */
+    border: solid 2px #cccccc;
+    /* border-right: 0; */
+}
+#house .house-con .housecon-right ul:first-child li{
+    width: 176px;
+    height: 340px;
+    border: 1px solid #ccc;
+    float: left;
+    border-left: 0;
+}
+#house .house-con .housecon-right ul:first-child li a img{
+    width: 176px;
+    height: 340px;
+}
+#house .house-con .housecon-right ul:first-child li:last-child{
+    border-right: 0;
+    
+}
+#house .house-con .housecon-right ul:last-child li{
+    width: 176px;
+    height: 160px;
+    border: 1px solid #ccc;
+    float: left;    
+    border-left: 0;
+    border-top: 0;
+}
+#house .house-con .housecon-right ul:last-child li a img{
+    width: 176px;
+    height: 160px;
+}
+#house .house-con .housecon-right ul:last-child li:last-child{
+    border-right: 0;
+    
+}
+
+
+
+/* ---------楼层滚动导航------------ */
+.floornav{
+    position: fixed;
+    top: 50%;
+    
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -670px;
+    width: 40px;
+    height: 200px;
+    
+}
+.floornav ul{
+    background-color: #F2F2F2;
+}
+.floornav ul li{
+    padding-left: 40px;
+    height: 40px;
+    background: url(../imgs/fix_box_icon_160622.png) no-repeat;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.floornav ul li.bg2{
+   background-position-y:-80px ;
+}
+.floornav ul li.bg3{
+    background-position-y:-160px ;
+ }
+ .floornav ul li.bg4{
+    background-position-y:-200px ;
+ }
+ .floornav ul li.bg5{
+    background-position-y:-320px ;
+ }
